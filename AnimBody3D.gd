@@ -1,0 +1,12 @@
+extends AnimatableBody3D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	rotate(Vector3.UP, PI/20)
+	translate(Vector3.UP * 0.05)
